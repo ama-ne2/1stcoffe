@@ -1,0 +1,36 @@
+
+.mainImg img{
+    width: 100%;
+}
+
+main{
+    /* border: solid 1px tomato; */
+
+    background-image: url("../images/1st.renga.jpg");
+    background-repeat: repeat-y;
+    /* position: relative; */
+    /* top: -350px; */
+    width: calc(100% - 40px);
+    padding: 20px;
+
+}
+
+.box{
+    /* border: 10px solid #333; */
+    background-color: #FFF4D4;
+
+}
+
+.title{
+    display: flex;
+    font-size: 3.2em;
+    color: #3d1313;
+    justify-content: center;
+    margin: 0 auto;
+    width: 453px;
+    height: 72px;
+    align-items: center;
+    /* border: 10px solid #333; */
+    background-image: url("../images/1st.ribbon.png");
+}
+
