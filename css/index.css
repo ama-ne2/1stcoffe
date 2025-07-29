@@ -1,39 +1,9 @@
 
 .mainImg img{
     width: 100%;
+    /* animation: 5s show forwards; */
 }
 
-main{
-    /* border: solid 1px tomato; */
-
-    background-image: url("../images/1st.renga.jpg");
-    background-repeat: repeat-y;
-    /* position: relative; */
-    /* top: -350px; */
-    width: calc(100% - 40px);
-    padding: 0 20px 0;
-
-}
-
-.boxWrap{
-    background-color: #FFF4D4;
-    text-align: center;
-    margin: 0 auto;
-    padding: 20px 40px;
-    max-width: 1000px;
-}
-
-.boxTitle{
-    display: flex;
-    font-size: 3.6em;
-    justify-content: center;
-    margin: 0 auto;
-    width: 453px;
-    height: 72px;
-    align-items: center;
-    /* border: 10px solid #333; */
-    background-image: url("../images/1st.ribbon.png");
-}
 
 .copWrap{
     /* 横並びにするところ */
@@ -105,7 +75,6 @@ width: 100%;
     border-radius: 20px;
     max-width: 550px;
     padding: 90px 50px;
-
 }
 
 .info h4{
@@ -114,6 +83,7 @@ width: 100%;
 
 .info p{
     font-size: 1.5em;
+
 }
 
 .menuWrap{
@@ -145,6 +115,8 @@ width: 100%;
     margin: 40px 0;
     padding: 20px 0;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
 
 
 }
@@ -168,3 +140,46 @@ width: 100%;
     align-items: center;
     font-size: 3.6em;
 }
+
+.charaWrap{
+    padding-top: 100px;
+    display: flex;
+}
+
+
+.charaWrap h3{
+    font-size: 1.5em;
+}
+
+.charaWrap h2{
+    font-size: 4em;
+}
+
+.charaInfo{
+    border: 1px solid tomato;
+    display: block;
+    align-items: center;
+    background-color: #F7D7A6;
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+}
+
+.charaText{
+    border: 1px solid blue;
+align-items: center;
+}
+
+
+/* 
+@keyframes show{
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+} */
