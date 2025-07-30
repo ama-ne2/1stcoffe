@@ -73,7 +73,7 @@ main{
     background-color: #FFF4D4;
     text-align: center;
     margin: 0 auto;
-    padding: 20px 40px;
+    padding: 20px 40px 0;
     max-width: 1000px;
 }
 
@@ -99,6 +99,8 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 10;
 }
 
 
