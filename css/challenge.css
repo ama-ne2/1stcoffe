@@ -1,0 +1,21 @@
+.boxTitle{
+margin-top: 200px;
+}
+
+.text{
+	font-size: 3em;
+	background-color: #F7D7A6;
+	border-radius: 20px;
+	max-width: 800px;
+    height: 100px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.guide{
+	display: flex;
+	justify-content: center;
+}
