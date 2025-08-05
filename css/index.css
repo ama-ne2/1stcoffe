@@ -73,17 +73,37 @@ width: 100%;
 .info{
     background-color: #F7D7A6;
     border-radius: 20px;
-    max-width: 550px;
-    padding: 90px 50px;
+    width: 550px;
+    height: 600px;
+    /* grid rows→縦軸の幅を決めている */
+    display: grid;
+    grid-template-rows: auto auto 0.8fr auto;
 }
 
 .info h4{
     font-size: 3em;
+    padding-top: 40px;
 }
 
 .info p{
     font-size: 1.5em;
+}
 
+
+.btnChallenge{
+    /* justify-selfを使う場合、 width100%では動かない */
+    /* 親の幅に100%になっているから空きがないからwidth80%で空きを作っている */
+    width: 80%;
+    justify-self: end;
+
+    a{
+        background-color: #D18447;
+        color: #3d1313;
+        font-size: 2.4em;
+        max-width: 350px;
+        border-radius: 20px;
+        padding-left: 20px;
+    }
 }
 
 .menuWrap{
@@ -112,11 +132,11 @@ width: 100%;
     background-color: #F7D7A6;
     text-align: center;
     max-width: 800px;
-    margin: 40px 0;
+    margin: 40px auto;
     padding: 20px 0;
     border-radius: 20px;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 
 
 }
@@ -151,12 +171,13 @@ width: 100%;
 
 
 .charaWrap h3{
-    font-size: 1.5em;
+    font-size: 3em;
 }
 
 .charaWrap h2{
     font-size: 4em;
 }
+
 
 .charaWrap .charaImgWrap{
     height: 600px;
@@ -164,7 +185,7 @@ width: 100%;
     /* overflow: hidden; */
     flex-shrink: 0;
     position: relative;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
 }
 
 .charaWrap .charaImg{
@@ -176,21 +197,35 @@ width: 100%;
 
 
 .charaInfo{
-    border: 1px solid tomato;
     display: block;
     align-items: center;
     background-color: #F7D7A6;
     border-radius: 20px;
-    width: 500px;
+    max-width: 500px;
     height: 500px;
     padding: 20px;
 }
 
 .charaText{
-    border: 1px solid blue;
-    align-items: center;
+    margin: 100px auto;
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center; */
 }
 
+.charaText p{
+    font-size: 3.5em;
+    text-align: left;
+}
+
+.btnChara a{
+    background-color: #D18447;
+	color: #3d1313;
+    font-size: 0.9em;
+    max-width: 350px;
+	border-radius: 20px;
+}
 
 @keyframes popUp {
     0%{

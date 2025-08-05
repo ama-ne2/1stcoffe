@@ -8,14 +8,27 @@ margin-top: 200px;
 	border-radius: 20px;
 	max-width: 800px;
     height: 100px;
-	display: flex;
 	justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-
+	display: flex;
+	align-items: center;
+	margin: 0 auto 20px;
 }
 
 .guide{
 	display: flex;
 	justify-content: center;
+}
+
+.btnMenu{
+	font-size: 2.6em;
+	background-color: #D18447;
+	width: 350px;
+	height: 70px;
+	border-radius: 20px;
+	position: relative;
+	margin: 20px auto 0;
+}
+
+.btnMenu a{
+	color: #3d1313;
 }
