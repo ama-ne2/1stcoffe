@@ -99,14 +99,30 @@ footer{
     height: 300px;
     color: #fff;
     text-align: center;
-    font-size: 6em;
+    font-size: 3em;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
     z-index: 10;
 }
 
+.footerText{
+    margin-bottom: 60px;
+}
+
+.footerText ul{
+    display: flex;
+    gap: 20px;
+
+}
+
+.footerText a{
+    /* display: flex; */
+    text-decoration: none;
+    color: #fff;
+}
 
 /* .logo{
     display: block;

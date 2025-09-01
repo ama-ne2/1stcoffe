@@ -15,13 +15,9 @@
 
 .aboutWrap{
     /* border: solid 1px blue; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* flex-wrap: wrap; */
     background-color: #F7D7A6;
     padding: 70px;
     margin: 0 auto;
-    /* margin: 70px; */
     max-width: 800px;
     border-radius: 20px;
 }
@@ -43,9 +39,7 @@
     }
 
 }
-/* .imagesWrap img{
-width: 100%;
-} */
+
 
 .aboutTitle{
     font-size: 4em;
@@ -61,8 +55,6 @@ width: 100%;
     font-size: 2.4em;
     /* background-color: skyblue; */
 }
-
-
 
 .infoWrap{
     display: flex;
@@ -103,7 +95,14 @@ width: 100%;
         max-width: 350px;
         border-radius: 20px;
         padding-left: 20px;
+        padding: 15px;
+        text-decoration: none;
     }
+}
+
+.btnChallenge a:hover{
+    background-color: #cb742c7f;
+    color: #3d1313d1;
 }
 
 .menuWrap{
@@ -118,14 +117,11 @@ width: 100%;
     }
 }
 
-.manu{
+.menu{
     width: 470px;
-    /* /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* padding-left: 120px; */
 }
 
-.manuTitle{
+.menuTitle{
     background-image: url(../images/1st.kannbann.mini.png);
     /* justify-content: center;
     align-items: center; */
@@ -146,9 +142,20 @@ width: 100%;
     justify-content: center; */
 }
 
-.manuBtn{
+.menuBtn{
+    display: block;
     background-color: #D18447;
     color: #3d1313;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 2.0em;
+    padding: 10px;
+    margin: 40px 0;
+}
+
+.menuBtn:hover{
+    background-color: #cb742c7f;
+    color: #3d1313d1;
 }
 
 .menuInfo p{
@@ -158,10 +165,21 @@ width: 100%;
 .iceWrap{
     display: flex;
     gap: 25px;
-    /* position: relative;
-    top: -25px;
-    left: -100px; */
 }
+
+.nakamiBtn {
+    text-decoration: none;
+    color: #3d1313;
+    background-color: #D18447;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.nakamiBtn:hover{
+    background-color: #cb742c7f;
+    color: #3d1313d1;
+}
+
 
 .accessWrap{
     display: flex;
@@ -177,7 +195,18 @@ width: 100%;
     justify-content: center;
     align-items: center;
     font-size: 3.6em;
+    margin-bottom: 70px;
 }
+
+.accessBtn{
+    text-decoration: none;
+    color: #3d1313;
+}
+
+.accessBtn:hover{
+color: #3d1313d1;
+}
+
 
 .charaWrap{
     padding-top: 100px;
@@ -222,22 +251,29 @@ width: 100%;
     max-width: 500px;
     height: 500px;
     padding: 20px;
+    position: relative;
 }
 
 .charaText{
-    margin: 100px auto;
-    /* display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-    align-items: center; */
+    margin: 30px auto;
 }
 
-.charaText p{
-    font-size: 3.5em;
-    text-align: left;
+.charaCenter{
+    font-size: 2.2em;
+    padding: 30px 0;
 }
 
-.btnChara a{
+.challBtn{
+    text-align: right;
+    background-color: #D18447;
+    border-radius: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+.info .btnChara a{
     background-color: #D18447;
 	color: #3d1313;
     font-size: 0.9em;
