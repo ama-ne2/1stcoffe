@@ -1,3 +1,80 @@
 .menuWrap{
     display: flex;
+    gap: 30px;
+}
+
+.boxTitle{
+    margin-top: 150px;
+}
+
+.TitleWrap{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    font-size: 2.8em;
+    margin: 70px;
+}
+
+.TitleWrap h3{
+    background-image: url(../images/1st.kannbann.mini.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 250px;
+    height: 80px;
+    line-height: 60px;
+}
+
+.TitleWrap h3:hover{
+    color: #3d1313d1;
+}
+
+h2{
+
+    background-image: url(../images/1st.kannbann.mini.png);
+    width: 250px;
+    height: 80px;
+    margin: 40px auto;
+    font-size: 2.8em;
+    line-height: 80px;
+}
+
+.itemText{
+    text-align: left;
+}
+
+.menuWrap h4{
+    font-size: 3em;
+    margin-left: 10px;
+}
+
+.menuWrap p{
+    font-size: 1.6em;
+    margin:0 0  10px 10px;
+}
+
+.itemInfo{
+    display: flex;
+}
+
+.itemRight{
+    position: relative;
+    right: -150px;
+    top: 150px;
+}
+
+.itemRight p{
+    font-size: 2.4em;
+}
+
+.nakamiBtn{
+    text-decoration: none;
+    color: #3d1313;
+    background-color: #D18447;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.nakamiBtn:hover{
+    background-color: #cb742c7f;
+    color: #3d1313d1;
 }
