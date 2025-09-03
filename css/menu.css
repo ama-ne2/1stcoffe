@@ -58,7 +58,7 @@ h2{
 
 .itemRight{
     position: relative;
-    right: -150px;
+    right: -120px;
     top: 150px;
 }
 
@@ -77,4 +77,11 @@ h2{
 .nakamiBtn:hover{
     background-color: #cb742c7f;
     color: #3d1313d1;
+}
+
+.btnNakami{
+    background-color: #F7D7A6;
+    padding: 20px;
+    border-radius: 20px;
+
 }

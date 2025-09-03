@@ -34,3 +34,9 @@ margin-top: 150px;
 	color: #3d1313;
 	text-decoration: none;
 }
+
+.btnMenu:hover{
+    background-color: #cb742c7f;
+    color: #3d1313d1;
+
+}

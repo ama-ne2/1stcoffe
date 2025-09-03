@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>aaa</title>
+	<title>1st access page</title>
 	<link rel="stylesheet" href="css/access.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -13,7 +13,7 @@
 			<li><a href="index.html">1stコーヒー</a></li>
 			<li><a href="challenge.html">チャレンジカード</a></li>
 			<li><a href="menu.html">メニュー</a></li> 
-			<li class="logo"><img src="images/1st.logo.png" alt="1stコーヒー"></li>
+			<li class="logo"><a href="index.html"><img src="images/1st.logo.png" alt="1stコーヒー"></a></li>
 			<li><a href="nakami.html">コーヒーのなかみ</a></li>
 			<li><a href="access.html">アクセス</a></li>
 			<li><a href="character.html">お問い合わせ</a></li>
@@ -21,21 +21,23 @@
 	</header>
 </body>
 <main>
-<div class="boxWrap">
-	<h1>アクセス</h1>
-	<h2>現在地から探す</h2>
-	<h2>エリアから探す</h2>
-
-	<p>大阪</p>
-	<p>京都</p>
-	<p>兵庫</p>
-	<p>滋賀</p>
-	<p>奈良</p>
-	<p>和歌山</p>
-	<p>三重</p>
-
+<div class="boxWrap childPage">
+	<h1 class="boxTitle">アクセス</h1>
+	<div class="accessWrap">
+		<h2 class="accessBtn">現在地から探す</h2>
+		<h2 class="accessBtn">エリアから探す</h2>
+	</div>
+	<div class="prefectures">
+		<p>大阪</p>
+		<p>京都</p>
+		<p>兵庫</p>
+		<p>滋賀</p>
+		<p>奈良</p>
+		<p>和歌山</p>
+		<p>三重</p>
+	</div>
 	<table>
-		<tr>
+		<tr class="tableWrap">
 			<th>イオンモール中崎</th>
 				<td>〒530-0015 <br>
 					大阪府大阪市北区中崎西2丁目3番35号<br>
@@ -46,7 +48,7 @@
 					<a href="index.html">サイト▶︎</a>
 				</td>
 		</tr>
-		<tr>
+		<tr class="tableWrap">
 			<th>ららぽーと門真</th>
 				<td>〒530-0015 <br>
 			大阪府大阪市北区中崎西2丁目3番35号<br>
@@ -59,11 +61,21 @@
 		</tr>
 	</table>
 
-	<p><a href="index.html">TOPに戻る</a></p>
+	<p class="btnTop"><a href="index.html" class="topBtn">TOPに戻る ▶︎</a></p>
 
 	</div>
 </main>
 <footer>
+	<div class="footerText">
+		<ul>
+		<li><a href="index.html">1stコーヒー</a></li>
+		<li><a href="challenge.html">チャレンジカード</a></li>
+		<li><a href="menu.html">メニュー</a></li>
+		<li><a href="nakami.html">コーヒーのなかみ</a></li>
+		<li><a href="access.html">アクセス</a></li>
+		<li><a href="character.html">お問い合わせ</a> </li>
+		</ul>
+	</div>
 	<address>sns@ecccomp</address>
 </footer>
 </html>

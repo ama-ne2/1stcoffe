@@ -1,5 +1,5 @@
 .boxTitle{
-margin-top: 150px;
+	margin-top: 150px;
 }
 
 .text{
@@ -34,4 +34,9 @@ margin-top: 150px;
 .btnMenu a{
 	color: #3d1313;
 	text-decoration: none;
+}
+
+.btnMenu:hover{
+    background-color: #cb742c7f;
+    color: #3d1313d1;
 }

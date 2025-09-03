@@ -47,7 +47,10 @@ header{
 
 .nav li a:hover{
     background-color: #805e3c;
+}
 
+.nav li.logo a:hover{
+    background-color: transparent;
 }
 
 .nav .logo{
@@ -56,6 +59,10 @@ header{
 }
 .logo img{
     width: 100%;
+}
+
+.logo a img:hover{
+    background-color: rgba(0, 0, 0, 0);
 }
 
 main{
@@ -85,7 +92,7 @@ main{
     display: flex;
     font-size: 3.6em;
     justify-content: center;
-    margin: 0 auto;
+    margin: 150px auto 0;
     width: 453px;
     height: 72px;
     align-items: center;
@@ -109,19 +116,22 @@ footer{
 }
 
 .footerText{
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 
 .footerText ul{
     display: flex;
-    gap: 20px;
-
+    gap: 50px;
 }
 
+
 .footerText a{
-    /* display: flex; */
     text-decoration: none;
     color: #fff;
+}
+
+.footerText a:hover{
+    color: #ffffff8d;
 }
 
 /* .logo{

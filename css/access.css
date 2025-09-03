@@ -1,0 +1,85 @@
+.boxTitle{
+	margin-top: 150px;
+}
+
+.accessWrap{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.accessBtn{
+    background-image: url(../images/1st.kannbann.500.png);
+    width: 500px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.accessWrap h2{
+    font-size: 2.6em;
+    line-height: 100px;
+    margin-top: 50px;
+}
+
+.prefectures {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.prefectures p{
+    background-color: #F7D7A6;
+    font-size: 2em;
+    padding: 0px 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.tableWrap{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #F7D7A6;
+    width: 900px;
+    gap: 100px;
+    padding: 20px;
+    margin: 20px;
+    font-size: 2em;
+}
+
+table td{
+    text-align: left;
+}
+
+table a{
+    text-decoration: none;
+    color: #3d1313;
+    background-color: #D18447;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+
+table a:hover{
+    background-color: #cb742c7f;
+    color: #3d1313d1;
+}
+
+.topBtn{
+    text-decoration: none;
+    color: #3d1313;
+    background-color: #D18447;
+    border-radius: 20px;
+    font-size: 3em;
+    padding: 20px;
+}
+
+.topBtn:hover{
+    background-color: #cb742c7f;
+    color: #3d1313d1;
+}
+
+.btnTop{
+    margin: 20px;
+}
